@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Cost Forecaster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="currencyConverter.html">Currency Converter</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hover-bg">
+            <h1>Fuel Cost Forecaster</h1>
+            <div id="chart-container">
+                <canvas id="fuelChart"></canvas>
+            </div>
+            <div class="controls">
+                <button id="prev" class="btn">Previous</button>
+                <button id="next" class="btn">Next</button>
+                <button id="switch-mode" class="btn">Switch to Forecast</button>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" id="filterGas" checked> Gas
+                </label>
+                <label>
+                    <input type="checkbox" id="filterElectricity" checked> Electricity
+                </label>
+                <label>
+                    <input type="checkbox" id="filterSolidFuels" checked> Solid Fuels
+                </label>
+                <label>
+                    <input type="checkbox" id="filterLiquidFuels" checked> Liquid Fuels
+                </label>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 George Gyabaah</p>
+    </footer>
+
+    <script src="js/forecaster.js"></script>
+</body>
+</html>

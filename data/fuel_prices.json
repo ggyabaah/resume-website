@@ -1,0 +1,7 @@
+{
+    "fuelPrices": [
+        { "date": "2022-08", "solidFuels": 3.1, "gas": 5.2, "electricity": 7.4, "liquidFuels": 6.8 },
+        { "date": "2022-07", "solidFuels": 3.0, "gas": 5.1, "electricity": 7.3, "liquidFuels": 6.7 },
+        { "date": "1996-01", "solidFuels": 1.5, "gas": 3.0, "electricity": 4.5, "liquidFuels": 2.5 }
+    ]
+}

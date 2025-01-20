@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - George Gyabaah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007bff">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="qualifications.html">Qualifications</a>
+            <a href="interests.html">Interests</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="skills.html">Skills</a>
+            <a href="contacts.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hover-bg">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+            Hi, I'm George Gyabaah! I specialize in creating responsive, user-friendly
+            web applications. Explore my qualifications, skills, and projects to learn
+            more about my professional journey.
+            </p>
+            <div class="images">
+                <img src="images/profilepicture.webp" alt="Profile Picture">
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+            .register('/sw.js')
+            .then(() => console.log("Service Worker Registered"))
+            .catch((error) => console.error("Service Worker Registration Failed:", error));
+        }
+    </script>
+    
+<footer>
+    <p>George Gyabaah | Email: <a href="mailto:ggyabaah83@gmail.com">ggyabaah83@gmail.com</a></p>
+    <p>Social Links: <a href="https://www.linkedin.com/in/ggyabaah/">LinkedIn</a> | <a href="#">GitHub</a></p>
+</footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
